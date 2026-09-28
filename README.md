@@ -1,18 +1,13 @@
-# Sumanhansada Tap
+# NoteWorthy Homebrew Tap
 
-## How do I install these formulae?
+[NoteWorthy](https://noteworthy.wtf/) for Mac: notes with private on-device AI.
 
-`brew install sumanhansada/tap/<formula>`
-
-Or `brew tap sumanhansada/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "sumanhansada/tap"
-brew "<formula>"
+```sh
+brew tap sumanhansada/tap
+brew install --cask noteworthy
 ```
 
-## Documentation
+Or in one line: `brew install --cask sumanhansada/tap/noteworthy`.
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Requires macOS 26 or later on Apple silicon. NoteWorthy is also on the
+[Mac App Store](https://apps.apple.com/app/id6799721933).
